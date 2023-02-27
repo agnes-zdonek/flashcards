@@ -1,0 +1,16 @@
+{
+    "flashcards": [
+        {
+            "question": "What is the capital of France?",
+            "answer": "Paris"
+        },
+        {
+            "question": "What is the brightest planet in our solar system?",
+            "answer": "Venus"
+        },
+        {
+            "question": "What is the most used word in the English language?",
+            "answer": "The"
+        }
+    ]
+}
