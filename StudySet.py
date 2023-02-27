@@ -16,4 +16,4 @@ class StudySet:
             data = json.load(file)
             flashcards = data['flashcards']
             for card in flashcards:
-                study_set.add_flashcard(Flashcard(card['question'], card['answer']))
+                self.add_flashcard(Flashcard(card['question'], card['answer']))
