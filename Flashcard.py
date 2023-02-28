@@ -3,3 +3,5 @@ class Flashcard:
         self.question = question
         self.answer = answer
         
+    def __str__(self) -> str:
+        return self.question, self.answer

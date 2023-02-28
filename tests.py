@@ -1,5 +1,5 @@
-from JsonMethods import *
-
+from StudySet import *
 
 set_general_knowledge = StudySet()
-JsonMethods.read_flashcards('data.json', set_general_knowledge)
+set_general_knowledge.read_flashcards('data.json')
+set_general_knowledge.print_set()

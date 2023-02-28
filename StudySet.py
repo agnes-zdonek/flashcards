@@ -9,8 +9,8 @@ class StudySet:
         self.set_of_flashcards.add(flashcard)
 
     def print_set(self) -> None:
-        print(self.set_of_flashcards)
-    
+        return {print(flashcard.__str__()) for flashcard in self.set_of_flashcards}
+
     def read_flashcards(self, file_path : str) -> None:
         with open(file_path, 'r') as file:
             data = json.load(file)
